@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyTrack AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>StudyTrack AI</h1>
+        <h3>Welcome, Garima</h3>
+    </header>
+
+    <main>
+        <section class="stats">
+            <div class="card">
+                <h3>Tasks</h3>
+                <p id="taskCount">0</p>
+            </div>
+            <div class="card">
+                <h3>Study Time</h3>
+                <p>0 hrs</p>
+            </div>
+            <div class="card">
+                <h3>Streak</h3>
+                <p>0 Days</p>
+            </div>
+        </section>
+
+        <section class="tasks">
+                <h2>Today's Tasks</h2>
+            <div class="task-input">
+                <input  type="text" id="taskInput" placeholder="Add a new task">
+                <button id="addTaskBtn">
+                    Add
+                </button>
+            </div>
+            <ul id="taskList">
+
+            </ul>
+        </section>
+
+        <section class="pomodoro">
+            <h2>Pomodoro Timer</h2>
+            <h1 id="timer">
+                25:00
+            </h1>
+            <button id="startBtn">Start</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+        </section>
+
+        <section class="assistant">
+            <h2>AI Study Assistant</h2>
+            <textarea
+                id="notesInput"
+                placeholder="Paste your notes here..."
+                rows="8"
+            ></textarea>
+
+            <div class="buttons">
+                <button id="summaryBtn">
+                    Summarize
+                </button>
+                <button id="quizBtn">
+                    Generate Quiz
+                </button>
+                <button id="explainBtn">
+                    Explain
+                </button>
+            </div>
+        </section>
+
+        <section class="output">
+            <h2>AI Output</h2>
+            <div id="result">
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
