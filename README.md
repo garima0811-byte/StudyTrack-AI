@@ -1,12 +1,12 @@
-# StudySync AI
+# StudyTrack AI
 
-StudySync AI is a student productivity dashboard designed to help students stay organized while studying.
+StudyTrack AI is a student productivity dashboard designed to help students stay organized while studying.
 
 ## Features
 
 - Task Manager
 - Pomodoro Timer
-- AI Study Assistant (Coming Soon)
+- AI Study Assistant (Work in progress)
 - Dashboard Statistics
 - Responsive Dark UI
 
